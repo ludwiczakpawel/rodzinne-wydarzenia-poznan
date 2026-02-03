@@ -1,0 +1,665 @@
+{
+  "last_updated": "2026-02-03T08:28:11.751887Z",
+  "events": [
+    {
+      "title": "&quot;Rok ze Słowem Bożym&quot; - spotkanie autorskie z księdzem Dawidem Wojdowskim",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "16:30",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/rok-ze-slowem-bozym-spotkanie-autorskie-z-ksiedzem-dawidem-wojdowskim,178827.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399211Z",
+      "id": "evt_9a8b7c36",
+      "tags": []
+    },
+    {
+      "title": "Jam Session Pana Gara",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "20:00",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/jam-session-pana-gara,179016.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399901Z",
+      "id": "evt_428a31ea",
+      "tags": []
+    },
+    {
+      "title": "Quizine - International Quiz w FoodHall Stary Browar (czwarta edycja)",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "19:00",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/quizine-international-quiz-w-foodhall-stary-browar-czwarta-edycja,178488.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399548Z",
+      "id": "evt_2eaef068",
+      "tags": []
+    },
+    {
+      "title": "Spektakl - Kilka dziewczyn / Some Girl (s)",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "19:30",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spektakl-kilka-dziewczyn-some-girl-s,178726.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399772Z",
+      "id": "evt_56cb5ef9",
+      "tags": [
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl - Wiera Gran",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "19:00",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spektakl-wiera-gran,178749.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399655Z",
+      "id": "evt_362014e3",
+      "tags": [
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl dla dzieci - Kraj Naj. Historia trójkątnej rewolucji",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "09:30",
+      "category": "theater",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-dla-dzieci-kraj-naj-historia-trojkatnej-rewolucji,178799.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.947566Z",
+      "id": "evt_d0ad12b2",
+      "tags": [
+        "theater"
+      ]
+    },
+    {
+      "title": "Spotkanie autorskie z Anną Dudzińską",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "18:00",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spotkanie-autorskie-z-anna-dudzinska,179029.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399446Z",
+      "id": "evt_9fc9f607",
+      "tags": []
+    },
+    {
+      "title": "Wieczory kameralne z Amadeusem - Koncert I",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-03",
+      "time": "17:00",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/wieczory-kameralne-z-amadeusem-koncert-i,178905.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.399342Z",
+      "id": "evt_dff3ffd7",
+      "tags": [
+        "concert"
+      ]
+    },
+    {
+      "title": "Koncert - Bukartyk &amp; Ajagore - Ja, wolny człowiek! - 3 Urodziny Śpiewogrania",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "19:00",
+      "category": "concert",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/koncert-bukartyk-ajagore-ja-wolny-czlowiek-3-urodziny-spiewogrania,179055.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400442Z",
+      "id": "evt_e2d9fd3b",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Misy i gongi - koncert relaksacyjny Gramis w grocie solnej",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "19:15",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/misy-i-gongi-koncert-relaksacyjny-gramis-w-grocie-solnej,179464.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400617Z",
+      "id": "evt_b9b40251",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Projekcja filmu animowanego &quot;Przeprawa&quot;",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "18:00",
+      "category": "cinema",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/projekcja-filmu-animowanego-przeprawa,179663.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400225Z",
+      "id": "evt_2f3cd6d3",
+      "tags": [
+        "this-week",
+        "cinema"
+      ]
+    },
+    {
+      "title": "Richard Bona Presents Asante Trio - koncert",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "20:00",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/richard-bona-presents-asante-trio-koncert,179218.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400962Z",
+      "id": "evt_85cfb60e",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Spektakl - Ja, Bałwan",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "09:30",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-ja-balwan,178803.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.947838Z",
+      "id": "evt_9fa86d22",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl - Kilka dziewczyn / Some Girl (s)",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "19:30",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spektakl-kilka-dziewczyn-some-girl-s,178727.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400798Z",
+      "id": "evt_3f62f276",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl - Siedem grzechów głównych / odcinek 2 / Zazdrość czyli Invidia",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "19:20",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spektakl-siedem-grzechow-glownych-odcinek-2-zazdrosc-czyli-invidia,179093.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400698Z",
+      "id": "evt_1f9446ab",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl - Wiera Gran",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "19:00",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/spektakl-wiera-gran,178748.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400538Z",
+      "id": "evt_eb195739",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Stella Rose - koncert",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "20:00",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/stella-rose-koncert,177523.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.401483Z",
+      "id": "evt_e48dfb9e",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Zwiedzanie Zamku z przewodnikiem",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-04",
+      "time": "18:00",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/zwiedzanie-zamku-z-przewodnikiem,179059.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:02.400328Z",
+      "id": "evt_17293e62",
+      "tags": [
+        "this-week"
+      ]
+    },
+    {
+      "title": "Koncert familijny - Mała Orkiestra Wielkiego Teatru",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-05",
+      "time": "10:00",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/koncert-familijny-mala-orkiestra-wielkiego-teatru,172175.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948130Z",
+      "id": "evt_ff7e48ad",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Spektakl - Ja, Bałwan",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-05",
+      "time": "09:30",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-ja-balwan,178800.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948042Z",
+      "id": "evt_408e2112",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Koncert familijny - Mała Orkiestra Wielkiego Teatru",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-06",
+      "time": "10:00",
+      "category": "concert",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/koncert-familijny-mala-orkiestra-wielkiego-teatru,172177.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948492Z",
+      "id": "evt_ff2b105c",
+      "tags": [
+        "this-week",
+        "concert"
+      ]
+    },
+    {
+      "title": "Spektakl - Don Kichot 2.0",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-06",
+      "time": "18:00",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-don-kichot-2-0,178805.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948683Z",
+      "id": "evt_5d02b234",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Spektakl - Wielki zły lis",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-06",
+      "time": "09:30",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-wielki-zly-lis,178804.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948408Z",
+      "id": "evt_c2e683fd",
+      "tags": [
+        "this-week",
+        "theater"
+      ]
+    },
+    {
+      "title": "Muzykoteczka - Koncert rodzinny - Muzyczny Alfabet Pana Świerszcza - O jak Obrazki z Japonii",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "10:00",
+      "category": "concert",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/muzykoteczka-koncert-rodzinny-muzyczny-alfabet-pana-swierszcza-o-jak-obrazki-z-japonii,172131.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948768Z",
+      "id": "evt_eb0a8e1c",
+      "tags": [
+        "this-week",
+        "concert",
+        "weekend"
+      ]
+    },
+    {
+      "title": "Razem przed obrazem - Kontrasty",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "11:00",
+      "category": "other",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/razem-przed-obrazem-kontrasty,174998.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.949085Z",
+      "id": "evt_215e74ff",
+      "tags": [
+        "this-week",
+        "weekend"
+      ]
+    },
+    {
+      "title": "Rodzinna akademia Robotyki - Taneczny kod",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "10:00",
+      "category": "workshop",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/rodzinna-akademia-robotyki-taneczny-kod,179077.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948889Z",
+      "id": "evt_4d5548a7",
+      "tags": [
+        "this-week",
+        "weekend",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Sensozabawa - zajęcia sensoryczne dla rodzin",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "11:00",
+      "category": "workshop",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/sensozabawa-zajecia-sensoryczne-dla-rodzin,179414.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.949181Z",
+      "id": "evt_fb267955",
+      "tags": [
+        "this-week",
+        "weekend",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Spektakl - Dziób w dziób",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "11:00",
+      "category": "theater",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/spektakl-dziob-w-dziob,178809.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.949274Z",
+      "id": "evt_9ff7761c",
+      "tags": [
+        "this-week",
+        "theater",
+        "weekend"
+      ]
+    },
+    {
+      "title": "Strefa Zabawy - My się zimy nie boimy - warsztaty tańca kreatywnego dla dzieci",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "11:00",
+      "category": "workshop",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/strefa-zabawy-my-sie-zimy-nie-boimy-warsztaty-tanca-kreatywnego-dla-dzieci,178911.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.949363Z",
+      "id": "evt_f788936c",
+      "tags": [
+        "this-week",
+        "weekend",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Warsztaty artystyczne z cyklu - Muzyczne zabawy u Mistrza Feliksa - Przygoda z piosenką",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "11:00",
+      "category": "workshop",
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/warsztaty-artystyczne-z-cyklu-muzyczne-zabawy-u-mistrza-feliksa-przygoda-z-piosenka,179082.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.949437Z",
+      "id": "evt_752ad884",
+      "tags": [
+        "this-week",
+        "weekend",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Zajęcia dla rodzin z dziećmi w ramach cyklu Magiczny dywan - Wielka wyprawa",
+      "venue": "",
+      "venue_url": "",
+      "date": "2026-02-07",
+      "time": "10:30",
+      "category": "workshop",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "",
+      "url": "https://www.poznan.pl/mim/events/dziecko,c,44520/zajecia-dla-rodzin-z-dziecmi-w-ramach-cyklu-magiczny-dywan-wielka-wyprawa,179078.html",
+      "source": "poznan.pl",
+      "discovered_at": "2026-02-03T08:28:01.948990Z",
+      "id": "evt_ea9774cb",
+      "tags": [
+        "this-week",
+        "weekend",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Alicja w Krainie Czarów",
+      "venue": "Teatr Cortiqué",
+      "venue_url": "",
+      "category": "other",
+      "description": "",
+      "url": "https://cortique.pl",
+      "source": "cortique.pl",
+      "discovered_at": "2026-02-03T08:28:02.858895Z",
+      "id": "evt_539948ac",
+      "tags": []
+    },
+    {
+      "title": "British Film Festival w Kinie Teatrze Apollo – repertuar wydarzeń 12-16.11 – Najlepsze filmy brytyjskie w Poznaniu",
+      "venue": "",
+      "venue_url": "",
+      "category": "cinema",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "<p>Już 12.11 rozpoczyna się druga edycja British Film Festival organizowanego przez Kino Muza. Tak jak w poprzednim roku, pokazy filmowe zobaczycie też w Apollo! Będziemy wyświetlać filmy z prawie wszystkich sekcji programowych &#8211; od filmów dla dzieci, przez klasyki nawet z lat trzydziestych poprzedniego wieku, aż do najgorętszych tegorocznych premier! Sprawdźcie nasz repertuar i wybierzcie [&#8230;]</p>\n<p>Artykuł <a href=\"https://kinoapollo.pl/aktualnosci/british-film-festival-w-kinie-tea",
+      "url": "https://kinoapollo.pl/aktualnosci/british-film-festival-w-kinie-teatrze-apollo-repertuar-wydarzen-12-16-11-najlepsze-filmy-brytyjskie-w-poznaniu/",
+      "source": "kinoapollo.pl",
+      "discovered_at": "2026-02-03T08:28:01.384035Z",
+      "id": "evt_3a802868",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "title": "Filmy, Koncerty, Spektakle komediowe – Repertuar wydarzeń Kina Teatru Apollo 21-27.11 – Wydarzenia kulturalne w Poznaniu",
+      "venue": "",
+      "venue_url": "",
+      "category": "cinema",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "<p>Po pełnym wrażeń tygodniu kina brytyjskiego nie zwalniamy, ale mamy dla Was kolejny tydzień wypełniony wydarzeniami. Przygotowaliśmy coś dla każdego. W kinie premiera nowej polskiej produkcji, kolejny kultowy film oraz warsztaty filmowe dla dzieci, rodziców i dziadków. Na dużej scenie czekają na was znakomite spektakle komediowe i koncerty. Nie przegapcie tego tygodnia w Apollo! spis [&#8230;]</p>\n<p>Artykuł <a href=\"https://kinoapollo.pl/aktualnosci/filmy-koncerty-spektakle-komediowe-repertu",
+      "url": "https://kinoapollo.pl/aktualnosci/filmy-koncerty-spektakle-komediowe-repertuar-wydarzen-kina-teatru-apollo-21-27-11-wydarzenia-kulturalne-w-poznaniu/",
+      "source": "kinoapollo.pl",
+      "discovered_at": "2026-02-03T08:28:01.383280Z",
+      "id": "evt_2115a19b",
+      "tags": [
+        "cinema",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Jesień z kulturą w Apollo – Repertuar wydarzeń Kina Teatru Apollo 07-11.11 – Wydarzenia kulturalne w Poznaniu",
+      "venue": "",
+      "venue_url": "",
+      "category": "cinema",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "<p>Gdy za oknem coraz chłodniej, a dni stają się krótsze, zapraszamy do Kina-Teatru Apollo — miejsca, gdzie można ogrzać się ciepłem emocji, światła i dobrej sztuki. W naszych salach czeka na Was wyjątkowy repertuar: poruszające filmy, pełne humoru spektakle teatralne i klasyka kina, do której warto wracać. Jesień w Apollo to czas spotkań z kulturą [&#8230;]</p>\n<p>Artykuł <a href=\"https://kinoapollo.pl/aktualnosci/jesien-z-kultura-w-apollo-repertuar-wydarzen-kina-teatru-apollo-07-11-11-wydarzen",
+      "url": "https://kinoapollo.pl/aktualnosci/jesien-z-kultura-w-apollo-repertuar-wydarzen-kina-teatru-apollo-07-11-11-wydarzenia-kulturalne-w-poznaniu/",
+      "source": "kinoapollo.pl",
+      "discovered_at": "2026-02-03T08:28:01.384597Z",
+      "id": "evt_0d2e815f",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "title": "Piękna i Bestia",
+      "venue": "Teatr Cortiqué",
+      "venue_url": "",
+      "category": "other",
+      "description": "",
+      "url": "https://cortique.pl",
+      "source": "cortique.pl",
+      "discovered_at": "2026-02-03T08:28:02.860181Z",
+      "id": "evt_fe5781b9",
+      "tags": []
+    },
+    {
+      "title": "Premiery teatralne, koncertowe i filmowe – Repertuar wydarzeń Kina Teatru Apollo 28.11-04.12 – Wydarzenia kulturalne w Poznaniu",
+      "venue": "",
+      "venue_url": "",
+      "category": "cinema",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "<p>W tym tygodniu już powiało chłodem, ale w Apollo czeka na Was gorąca atmosfera! Cały weekend gramy znane i lubiane spektakle komediowe, a w kinie najnowsza polska premiera i kolejny film z cyklu “Kultowa klasyka”. Po weekendzie nie zwalniamy i zapraszamy was na poznańskie premiery dwóch nowych projektów: spektakl “Dom weselny” i koncert “Tercet, czyli [&#8230;]</p>\n<p>Artykuł <a href=\"https://kinoapollo.pl/aktualnosci/premiery-teatralne-koncertowe-i-filmowe-repertuar-wydarzen-kina-teatru-apol",
+      "url": "https://kinoapollo.pl/aktualnosci/premiery-teatralne-koncertowe-i-filmowe-repertuar-wydarzen-kina-teatru-apollo-28-11-04-12-wydarzenia-kulturalne-w-poznaniu/",
+      "source": "kinoapollo.pl",
+      "discovered_at": "2026-02-03T08:28:01.383113Z",
+      "id": "evt_460b8de3",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "title": "Spektakle komediowe i nowości kinowe – Repertuar wydarzeń Kina Teatru Apollo 30.01-05.02 – Wydarzenia kulturalne w Poznaniu",
+      "venue": "",
+      "venue_url": "",
+      "category": "theater",
+      "age_range": [
+        3,
+        10
+      ],
+      "description": "<p>W tym tygodniu zima ponownie zaskoczyła Poznań, ale pomimo  ekstremalnych warunków pogodowych my nie zwalniamy i zapewniamy Wam najgorętsze premiery teatralne i kinowe! Chodźcie rozgrzać się w ciepłej atmosferze Kina Teatru Apollo! Weekend w kinie &#8211; filmy animowane, nowe polskie premiery i kultowe klasyki W ten weekend Kino Teatr Apollo zaprasza widzów na trzy bardzo [&#8230;]</p>\n<p>Artykuł <a href=\"https://kinoapollo.pl/aktualnosci/spektakle-komediowe-i-nowosci-kinowe-repertuar-wydarz",
+      "url": "https://kinoapollo.pl/aktualnosci/spektakle-komediowe-i-nowosci-kinowe-repertuar-wydarzen-kina-teatru-apollo-30-01-05-02-wydarzenia-kulturalne-w-poznaniu/",
+      "source": "kinoapollo.pl",
+      "discovered_at": "2026-02-03T08:28:01.380667Z",
+      "id": "evt_9e87ddf1",
+      "tags": [
+        "theater"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎪 Rodzinne Wydarzenia — Poznań</title>
+    <meta name="description" content="Wydarzenia kulturalne dla rodzin z dziećmi w Poznaniu - kino, teatr, warsztaty, koncerty i więcej">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #e0e0e0;
+            padding: 20px;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #fff;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 40px;
+            justify-content: center;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+        }
+
+        .filter-btn {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            color: #e0e0e0;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .filter-btn:hover {
+            background: #3a3a3a;
+            border-color: #4a4a4a;
+            transform: translateY(-2px);
+        }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: #667eea;
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            color: #fff;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3a3a3a;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Event cards */
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .event-card {
+            background: linear-gradient(135deg, rgba(42, 42, 42, 0.95) 0%, rgba(35, 35, 35, 0.95) 100%);
+            border: 1px solid #3a3a3a;
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .event-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+            border-color: #4a4a4a;
+        }
+
+        .event-card:hover::before {
+            opacity: 1;
+        }
+
+        .event-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 18px;
+            gap: 12px;
+        }
+
+        .event-icon {
+            font-size: 2.2em;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+        }
+
+        .event-title {
+            font-size: 1.25em;
+            color: #fff;
+            flex: 1;
+            line-height: 1.4;
+            font-weight: 600;
+        }
+
+        .event-details {
+            margin-top: 18px;
+        }
+
+        .detail-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #b0b0b0;
+            font-size: 0.95em;
+        }
+
+        .detail-icon {
+            margin-right: 12px;
+            width: 24px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .event-link {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.95em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.2);
+        }
+
+        .event-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 12px;
+        }
+
+        .tag {
+            background: #3a3a3a;
+            color: #b0b0b0;
+            padding: 5px 12px;
+            border-radius: 14px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+
+        .no-events {
+            text-align: center;
+            color: #666;
+            padding: 60px 20px;
+            font-size: 1.2em;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 1.5em;
+            color: #999;
+        }
+
+        .error {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 1.2em;
+            color: #ff6b6b;
+            background: rgba(255, 107, 107, 0.1);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                padding: 10px;
+                gap: 8px;
+            }
+
+            .filter-btn {
+                padding: 10px 18px;
+                font-size: 0.95em;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+
+            .event-card {
+                padding: 20px;
+            }
+
+            .event-title {
+                font-size: 1.15em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .filter-btn {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+
+            .section-title {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎪 Rodzinne Wydarzenia — Poznań</h1>
+            <div class="subtitle">Kultura i rozrywka dla dzieci w Poznaniu i okolicy</div>
+            <div class="last-updated" id="lastUpdated">Ładowanie...</div>
+        </header>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Wszystko</button>
+            <button class="filter-btn" data-filter="cinema">🎬 Kino</button>
+            <button class="filter-btn" data-filter="theater">🎭 Teatr</button>
+            <button class="filter-btn" data-filter="concert">🎵 Muzyka</button>
+            <button class="filter-btn" data-filter="outdoor">🌳 Plener</button>
+            <button class="filter-btn" data-filter="workshop">🎨 Warsztaty</button>
+            <button class="filter-btn" data-filter="other">📅 Inne</button>
+        </div>
+
+        <div id="content">
+            <div class="loading">Ładowanie wydarzeń...</div>
+        </div>
+    </div>
+
+    <script>
+        // Category icons
+        const categoryIcons = {
+            cinema: '🎬',
+            theater: '🎭',
+            concert: '🎵',
+            museum: '🏛️',
+            outdoor: '🌳',
+            workshop: '🎨',
+            sport: '⚽',
+            fair: '🎪',
+            other: '📅'
+        };
+
+        // Polish month names
+        const monthNames = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 
+                          'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'];
+        
+        const weekdays = ['niedz.', 'pon.', 'wt.', 'śr.', 'czw.', 'pt.', 'sob.'];
+
+        let allEvents = [];
+        let currentFilter = 'all';
+
+        // Load events
+        async function loadEvents() {
+            try {
+                const response = await fetch('./events.json');
+                if (!response.ok) throw new Error('Nie udało się pobrać danych');
+                
+                const data = await response.json();
+                allEvents = data.events || [];
+                
+                // Update last updated timestamp
+                const lastUpdated = new Date(data.last_updated);
+                const formattedDate = `${lastUpdated.getDate()} ${monthNames[lastUpdated.getMonth()]} ${lastUpdated.getFullYear()}`;
+                const formattedTime = lastUpdated.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' });
+                
+                document.getElementById('lastUpdated').textContent = 
+                    `Ostatnia aktualizacja: ${formattedDate} o ${formattedTime}`;
+                
+                renderEvents();
+            } catch (error) {
+                console.error('Error loading events:', error);
+                document.getElementById('content').innerHTML = 
+                    '<div class="error">⚠️ Nie udało się załadować wydarzeń. Spróbuj odświeżyć stronę.</div>';
+            }
+        }
+
+        // Create event card HTML
+        function createEventCard(event) {
+            const icon = categoryIcons[event.category] || '📅';
+            
+            // Format date
+            let dateFormatted = 'Brak daty';
+            if (event.date) {
+                const date = new Date(event.date + 'T00:00:00');
+                const weekday = weekdays[date.getDay()];
+                const day = date.getDate();
+                const month = monthNames[date.getMonth()];
+                
+                dateFormatted = `${weekday} ${day} ${month}`;
+                if (event.time) {
+                    dateFormatted += ` o ${event.time}`;
+                }
+            }
+
+            // Age range
+            const ageText = event.age_range ? 
+                `${event.age_range[0]}-${event.age_range[1]} lat` : 
+                'Dla wszystkich';
+
+            // Venue
+            const venueHtml = event.venue ? 
+                `<div class="detail-row"><span class="detail-icon">📍</span> ${event.venue}</div>` : '';
+
+            // Price
+            const priceHtml = event.price ? 
+                `<div class="detail-row"><span class="detail-icon">💰</span> ${event.price}</div>` : '';
+
+            // Description (truncate if too long)
+            let descHtml = '';
+            if (event.description) {
+                const cleanDesc = event.description.replace(/<[^>]*>/g, '').trim();
+                const truncDesc = cleanDesc.length > 150 ? cleanDesc.substring(0, 150) + '...' : cleanDesc;
+                if (truncDesc) {
+                    descHtml = `<div style="margin-top: 15px; color: #999; font-size: 0.9em; line-height: 1.5;">${truncDesc}</div>`;
+                }
+            }
+
+            return `
+                <div class="event-card" data-category="${event.category}">
+                    <div class="event-header">
+                        <div class="event-icon">${icon}</div>
+                        <div class="event-title">${event.title}</div>
+                    </div>
+                    <div class="event-details">
+                        ${venueHtml}
+                        <div class="detail-row"><span class="detail-icon">📅</span> ${dateFormatted}</div>
+                        <div class="detail-row"><span class="detail-icon">👶</span> ${ageText}</div>
+                        ${priceHtml}
+                    </div>
+                    ${descHtml}
+                    ${event.url ? `<a href="${event.url}" class="event-link" target="_blank" rel="noopener">Zobacz więcej →</a>` : ''}
+                </div>
+            `;
+        }
+
+        // Render events
+        function renderEvents() {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            
+            // Calculate this weekend (next Saturday-Sunday)
+            const todayDayOfWeek = today.getDay();
+            const daysUntilSaturday = todayDayOfWeek === 0 ? 6 : (6 - todayDayOfWeek);
+            const daysUntilSunday = daysUntilSaturday + 1;
+            
+            const thisSaturday = new Date(today);
+            thisSaturday.setDate(thisSaturday.getDate() + daysUntilSaturday);
+            
+            const thisSunday = new Date(today);
+            thisSunday.setDate(thisSunday.getDate() + daysUntilSunday);
+            
+            const nextMonday = new Date(thisSunday);
+            nextMonday.setDate(nextMonday.getDate() + 1);
+            
+            const weekFromToday = new Date(today);
+            weekFromToday.setDate(weekFromToday.getDate() + 7);
+
+            // Filter by category
+            const filteredEvents = currentFilter === 'all' ? 
+                allEvents : 
+                allEvents.filter(e => e.category === currentFilter);
+
+            // Split into sections
+            const weekend = [];
+            const thisWeek = [];
+            const comingUp = [];
+
+            filteredEvents.forEach(event => {
+                if (!event.date) return;
+                
+                const eventDate = new Date(event.date + 'T00:00:00');
+                eventDate.setHours(0, 0, 0, 0);
+
+                const eventTime = eventDate.getTime();
+                const satTime = thisSaturday.getTime();
+                const sunTime = thisSunday.getTime();
+
+                // Weekend events (this Saturday and Sunday)
+                if (eventTime === satTime || eventTime === sunTime) {
+                    weekend.push(event);
+                }
+                // This week (next 7 days, excluding weekend that's already shown)
+                else if (eventDate >= today && eventDate < weekFromToday) {
+                    thisWeek.push(event);
+                }
+                // Coming up (after this week, next 3 weeks)
+                else if (eventDate >= weekFromToday) {
+                    const threeWeeksFromNow = new Date(today);
+                    threeWeeksFromNow.setDate(threeWeeksFromNow.getDate() + 28);
+                    if (eventDate <= threeWeeksFromNow) {
+                        comingUp.push(event);
+                    }
+                }
+            });
+
+            // Sort by date
+            const sortByDate = (a, b) => {
+                const dateA = new Date(a.date + 'T00:00:00');
+                const dateB = new Date(b.date + 'T00:00:00');
+                if (dateA.getTime() !== dateB.getTime()) {
+                    return dateA - dateB;
+                }
+                // If same date, sort by time
+                if (a.time && b.time) {
+                    return a.time.localeCompare(b.time);
+                }
+                return 0;
+            };
+
+            weekend.sort(sortByDate);
+            thisWeek.sort(sortByDate);
+            comingUp.sort(sortByDate);
+
+            // Build HTML
+            let html = '';
+
+            if (weekend.length > 0) {
+                html += `
+                    <div class="section">
+                        <h2 class="section-title">🎉 Ten weekend</h2>
+                        <div class="events-grid">
+                            ${weekend.map(createEventCard).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (thisWeek.length > 0) {
+                html += `
+                    <div class="section">
+                        <h2 class="section-title">📅 Ten tydzień</h2>
+                        <div class="events-grid">
+                            ${thisWeek.map(createEventCard).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (comingUp.length > 0) {
+                html += `
+                    <div class="section">
+                        <h2 class="section-title">🔜 Nadchodzące</h2>
+                        <div class="events-grid">
+                            ${comingUp.map(createEventCard).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (html === '') {
+                html = '<div class="no-events">😔 Brak wydarzeń w wybranej kategorii</div>';
+            }
+
+            document.getElementById('content').innerHTML = html;
+        }
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.getAttribute('data-filter');
+                renderEvents();
+            });
+        });
+
+        // Load on page load
+        loadEvents();
+    </script>
+</body>
+</html>
